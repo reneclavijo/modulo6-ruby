@@ -2,7 +2,7 @@ puts "¡Hola Mundo!"
 puts("¿cómo estas?")
 
 puts "Ingresa tu nombre"
-nombre_usuario = gets.chomp
+nombre_usuario = gets.chomp 
 
 puts "hola normal " + nombre_usuario
 puts "hola compuesto #{nombre_usuario}"
