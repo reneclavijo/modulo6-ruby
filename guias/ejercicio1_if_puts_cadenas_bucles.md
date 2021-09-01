@@ -68,7 +68,7 @@ Desarrollar los siguientes ejercicios utilizando la estructura ```ruby if```
 
 2. Suerte, "suerte"
 
-    Generar un número de forma aleatoria utilizando `rand(1..100)` almacenarlo en una variable. Solicitar al usuario que escriba qué pregunta quiere saber de su futuro. Si el número es mayor a 70 imprimir *sí, totlamente* y si es manor imprimir *no, ni lo pienses*
+    Generar un número de forma aleatoria utilizando `rand(1..100)` almacenarlo en una variable. Solicitar al usuario que escriba qué pregunta quiere saber de su futuro. Si el número es mayor a 70 imprimir *sí, totlamente* y si es menor imprimir *no, ni lo pienses*
 
     **Ejemplo**
 
