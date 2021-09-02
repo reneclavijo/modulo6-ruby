@@ -38,17 +38,63 @@ Para ver el todos los métodos completos, revisar la documentación [Documentaci
 > Crear un archivo dentro de la carpeta *ejercicio2* llamado
 > *ejercicios_array.rb* para realizar los siguientes ejercicios
 
-1. Definir un arreglo de tamaño *n* dado por el usuario y agregar números aleatorios de entre 0..10. Realizar la suma de todos los números e imprimir en consola todos los números y el resultado final.
+1. Ganadores 🏀⚽
+
+   El usuario desea saber ingresado solo el marcador de un partido qué equipo es el ganador. El marcador tiene que tener el siguiente formato "n-m" donde n es el marcador del equipo local y m el marcado del equipo visitante. Al final se debe mostrar cuál que de los equipos fue el ganador
+
+   **Ejemplo**
+
+   5-3
+
+   => Ganó el equipo local
+
+   9-9
+
+   => ¡Empate!
+
+   1-8
+
+   => Ganó la visita
+
+2. Definir un arreglo de tamaño *n* dado por el usuario y agregar números aleatorios entre 0..10. Realizar la suma de los números e imprimir en consola el contenido del arreglo y el resultado final.
 
     n = 10
+
     => [3, 7, 1, 6, 9, 2, 8, 7, 5, 9]
+
     => Suma: 57
 
-2. Definir un arreglo de tamaño *n* dado por el usuario y agregar números aleatorios de entre 0..10. Si el número es par reemplazarlo por el texto "par" y si es impar reemplazarlo por el texto "impar". Mostrar en consola el arreglo original y el resultante.
+3. Definir un arreglo de tamaño *n* dado por el usuario y agregar números aleatorios entre 0..10. Si el número es par reemplazarlo por el texto "par" y si es impar reemplazarlo por el texto "impar". Mostrar en consola el arreglo original y el resultante.
 
     n = 10
+
     => [7, 9, 3, 8, 0, 0, 8, 7, 1, 8]
+
     => ["impar", "impar", "impar", "par", "par", "par", "par", "impar", "impar", "par"]
+
+4. Permitir al usuario ingresar una oración e imprimir en consola la cantidad de palabras encontradas.
+
+    oracion = "las clases de programación son todas las noches"
+
+    => palabras totales: 8
+
+5. Permitir ingresar al usuario por consola nombres de personas, estos nombres deben mantener el siguiente formato:
+
+   - Si el nombre comienza por una vocal, el nombre debe comenzar el nombre con mayúscula
+   - Si el nombre comienza por una consonante, el nombre de estar todo en mayúscula
+
+    Para mostrar cómo va la lista el usuario puede escribir la palabra “mostrar” y para salir debe escribir la palabra “salir”. Al final se debe imprimir en pantalla todos los nombres de la lista y el total de nombres agregados.
+
+    => ingrese un nombre para agregar a la lista:
+    andrea
+    => agregando: Andrea
+    carlos
+    => agregando: CARLOS
+    mostrar
+    => Andrea - CARLOS
+    salir
+    => Lista final: Andrea - CARLOS
+    => 2 nombres agregados
 
 ## Hash | Diccionarios
 
@@ -57,19 +103,19 @@ Para ver el todos los métodos completos, revisar la documentación [Documentaci
 > Crear un archivo dentro de la carpeta *ejercicio2* llamado
 > *ejercicios_hash.rb* para realizar los siguientes ejercicios
 
-1. Definir 10 diccionarios de nombres de 10 equipos diferentes con sus respectivos estadios.
+Utilizando los 10 diccionarios que se encuentran en la parte inferior realizar los siguientes ejercicios.
 
-    ```ruby
-    equipo1 = { nombre: 'argentina',    estadio: 'Estadio Único de Santiago del Estero' }
-    equipo2 = { nombre: 'bolivia',      estado: 'Estadio Hernando Siles' }
-    equipo3 = { nombre: 'brasil',       estadio: 'Estadio José Pinheiro Borda' }
-    equipo4 = { nombre: 'chile',        estado: 'Estadio Monumental Chile' }
-    equipo5 = { nombre: 'colombia',     estadio: 'Estadio Metropolitano Roberto Meléndez' }
-    equipo6 = { nombre: 'ecuador',      estado: 'Estadio Rodriguez Paz Delgado' }
-    equipo7 = { nombre: 'paraguay',     estadio: 'Estadio Defensores del Chaco' }
-    equipo8 = { nombre: 'perú',         estado: 'Estadio Nacional del Perú' }
-    equipo9 = { nombre: 'uruguay',      estadio: 'Estadio Centenario' }
-    equipo10 = { nombre: 'venezuela',   estado: 'Estadio Olímpico (U.C.V.)' }
-    ```
+```ruby
+equipo1 = { nombre:     'argentina',    estadio: 'Estadio Único de Santiago del Estero' }
+equipo2 = { nombre:     'bolivia',      estado: 'Estadio Hernando Siles' }
+equipo3 = { nombre:     'brasil',       estadio: 'Estadio José Pinheiro Borda' }
+equipo4 = { nombre:     'chile',        estado: 'Estadio Monumental Chile' }
+equipo5 = { nombre:     'colombia',     estadio: 'Estadio Metropolitano Roberto Meléndez' }
+equipo6 = { nombre:     'ecuador',      estado: 'Estadio Rodriguez Paz Delgado' }
+equipo7 = { nombre:     'paraguay',     estadio: 'Estadio Defensores del Chaco' }
+equipo8 = { nombre:     'perú',         estado: 'Estadio Nacional del Perú' }
+equipo9 = { nombre:     'uruguay',      estadio: 'Estadio Centenario' }
+equipo10 = { nombre:    'venezuela',    estado: 'Estadio Olímpico (U.C.V.)' }
+```
 
-    Permitir al usuario 
+1. Definir un menú que permita al usuario visualizar el nombre del estadio dependiendo el país que ingrese por consola.
