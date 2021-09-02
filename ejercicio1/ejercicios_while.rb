@@ -40,27 +40,79 @@
 # -1 
 # => Las ventas del día fueron 12000 💵
 
-ventas = []
-index = 0
-suma = 0
-monto = 0
+# ventas = []
+# index = 0
+# suma = 0
+# monto = 0
 
-while monto != -1
-    puts "ingrese ventas"
-    monto = gets.chomp
+# while monto != -1
+#     puts "ingrese ventas"
+#     monto = gets.chomp
 
-    # validaciones desde la a hasta la z
-    if monto.include? "a" or monto.include? "b" or monto.include? "c" or monto.include? "d" or monto.include? "e" or monto.include? "f" or monto.include? "g" or monto.include? "h" or monto.include? "i" or monto.include? "j" or monto.include? "k" or monto.include? "l" or monto.include? "m" or monto.include? "n" or monto.include? "ñ" or monto.include? "o" or monto.include? "p" or monto.include? "q" or monto.include? "r" or monto.include? "s" or monto.include? "t" or monto.include? "u" or monto.include? "v" or monto.include? "w" or monto.include? "x" or monto.include? "y" or monto.include? "z"
-        puts "#{monto} no es un número 🧨"
-    else
-        monto = monto.to_i
-        if monto != -1
-            ventas[index] = monto
-            suma += ventas[index]
-            index += 1
-        end
+#     # validaciones desde la a hasta la z
+#     if monto.include? "a" or monto.include? "b" or monto.include? "c" or monto.include? "d" or monto.include? "e" or monto.include? "f" or monto.include? "g" or monto.include? "h" or monto.include? "i" or monto.include? "j" or monto.include? "k" or monto.include? "l" or monto.include? "m" or monto.include? "n" or monto.include? "ñ" or monto.include? "o" or monto.include? "p" or monto.include? "q" or monto.include? "r" or monto.include? "s" or monto.include? "t" or monto.include? "u" or monto.include? "v" or monto.include? "w" or monto.include? "x" or monto.include? "y" or monto.include? "z"
+#         puts "#{monto} no es un número 🧨"
+#     else
+#         monto = monto.to_i
+#         if monto != -1
+#             ventas[index] = monto
+#             suma += ventas[index]
+#             index += 1
+#         end
+#     end
+# end
+
+# puts "las ventas del día son #{ventas}"
+# puts "la venta total del día #{suma}"
+
+# 3. 
+
+# vida = rand(100..500)
+
+# vida_tmp = vida
+
+# ataques_pares = 0
+# ataques_impares = 0
+
+# # si la vida es impar, restar 1
+# # si la vida es par dividir entre 2
+
+# while vida > 0
+#     if vida % 2 == 0 # par
+#         vida = vida / 2
+#         ataques_pares += 1
+#         # vida /= 2
+#     else
+#         vida -= 1
+#         ataques_impares += 1
+#     end
+# end
+# puts " Ataques totales para matar al monstruo 
+#     #{vida_tmp} HP | pares: #{ataques_pares}, 
+#     impares #{ataques_impares} ⚔ "
+
+# 4.
+system("clear")
+
+numero_secreto = rand(1..20)
+numero_usuario = 0
+intentos = 0
+
+puts "Adivina el número"
+
+while numero_usuario != numero_secreto
+    
+    numero_usuario = gets.chomp.to_i
+
+    if numero_usuario < numero_secreto
+        puts "Muuuy abajo"
+        intentos += 1
+    elsif numero_usuario > numero_secreto
+        puts "Muuuuy arriba"
+        intentos += 1
     end
+
 end
 
-puts "las ventas del día son #{ventas}"
-puts "la venta total del día #{suma}"
+puts "Adivinaste, el número era #{numero_secreto}"
+puts "tuviste #{intentos} intentos"
