@@ -63,7 +63,9 @@ Desarrollar los siguientes ejercicios utilizando la estructura ```ruby if```
     Solicitar al usuario que ingrese un número del 1 al 10. Regresar el mensaje con el número transformado en número romano.
 
     **Ejemplo**
+
     n = 2
+
     => 2 es igual a II
 
 2. Suerte, "suerte"
@@ -73,6 +75,7 @@ Desarrollar los siguientes ejercicios utilizando la estructura ```ruby if```
     **Ejemplo**
 
     pregunta = ¿voy a viajar a la luna?
+
     => sí, totalmente
 
 ## while
@@ -87,8 +90,11 @@ Desarrollar los siguientes ejercicios utilizando la estructura ```ruby if```
     **Ejemplo**
 
     hola
+
     => dijiste: hola 🦜
+
     ¿me estas imitando 😠?
+
     => dijiste: ¿me estas imitando 😠? 🦜
 
 2. Ventas totales 💰
@@ -98,22 +104,50 @@ Desarrollar los siguientes ejercicios utilizando la estructura ```ruby if```
     **Ejemplo**
 
     => Ingrese sus ventas del día
+
     5000
+
     6000
+
     1000
+
     650ss
+
     => 650ss no es un número 🧨
+
     -1
+
     => Las ventas del día fueron 12000 💵
 
 3. Usuario Vs. CPU
 
-   En un juego es necesario analizar la cantidad de turnos que se necesitan para eliminar un monstruo. Estos monstruos normalmente tienen una vida 100 y 500. El ataque que se va a probar les resta -1 si la vida es impar y divide entre 2 la vida si es par. Si la vida del monstruo es menor o igual a cero debe morir.
+   En un juego es necesario analizar la cantidad de turnos que se necesitan para eliminar un monstruo. Estos monstruos normalmente tienen una vida entre 100 y 500. El ataque que se va a probar les resta -1 si la vida es impar y divide entre 2 la vida si es par. Si la vida del monstruo es menor o igual a cero debe morir.
    Al finalizar, es necesario impirimr la cantidad de operaciones necesarias para destruir al monstruo de la siguiente manera:
 
     **Ejemplo**
+
     vida = 500
     => Ataques totales para matar a monstruo de 500 HP | 8 pares y 6 impares ⚔
+
+4. Adivinanzas
+
+    Generar un número de forma aleatoria entre 1 y 20.
+    Utilizar la consola para solicitar al usuario que adivine el número generado, si el usuario ingresa un número menor deberá imprimir "muy abajo" y si el número ingresado es mayor imprimir "muy arriba".
+    Si el usuario adivina, deberá mostrar un mensaje de felicitaciones.
+
+    **Ejemplo**
+
+    20
+
+    => muy arriba
+
+    5
+
+    => muy abajo
+
+    8
+
+    => Felicidades, el número era 8
 
 ## times | for | rangos
 
@@ -122,14 +156,16 @@ Desarrollar los siguientes ejercicios utilizando la estructura ```ruby if```
 
 1. Imprimiendo pares e impares. 🐯🐱
 
-    Permitir ingresar un número *n* al usuario. Si *n* es par, deberá mostrar una secuenta de números pares hasta *n* separados por **_**; si es *n* es un número impar deberá mostrar una secuencia de números impares hasta *n* separados por **$**
+    Permitir ingresar un número *n* al usuario. Si *n* es par, deberá mostrar una secuenta de números pares hasta *n* separados por **_**; si *n* es un número impar deberá mostrar una secuencia de números impares hasta *n* separados por **$**
 
     **Ejemplo**
 
     n = 10
+
     => 0_2_4_6_8_10
 
     n = 11
+
     => 1$3$5$7$9$11
 
 2. Sorteos para una rifa 🎁
