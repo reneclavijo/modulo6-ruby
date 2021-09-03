@@ -86,14 +86,23 @@ Para ver el todos los métodos completos, revisar la documentación [Documentaci
     Para mostrar cómo va la lista el usuario puede escribir la palabra “mostrar” y para salir debe escribir la palabra “salir”. Al final se debe imprimir en pantalla todos los nombres de la lista y el total de nombres agregados.
 
     => ingrese un nombre para agregar a la lista:
+
     andrea
+
     => agregando: Andrea
+
     carlos
+
     => agregando: CARLOS
+
     mostrar
+
     => Andrea - CARLOS
+
     salir
+
     => Lista final: Andrea - CARLOS
+
     => 2 nombres agregados
 
 ## Hash | Diccionarios
@@ -119,3 +128,12 @@ equipo10 = { nombre:    'venezuela',    estado: 'Estadio Olímpico (U.C.V.)' }
 ```
 
 1. Definir un menú que permita al usuario visualizar el nombre del estadio dependiendo el país que ingrese por consola.
+
+2. Solicitar al usuario a través de un menú que seleccione 2 países utilizando números. Después de seleccionar los dos países, debe crear un nuevo *Hash* con la siguiente estructura `{ local: '', visitante: '', estadio: '' }` y mostrarlo en consola.
+
+3. Definir un arreglo de equipos y agregar todos los hash declarados previamente. Realizar el sorteo de los 5 partidos y mostrar el resultado en consola. (Revisar la documentación por el método `pop`)
+
+4. Bonus 🌟
+
+    Tomando como base 1 de los 3 ejercicios anteriores, mostrar el resultado del ejercicio en un archivo .txt
+    Revisar la documentación de [I/O](https://ruby-doc.org/core-2.5.0/File.html)
