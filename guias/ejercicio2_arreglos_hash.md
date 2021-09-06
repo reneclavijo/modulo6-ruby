@@ -80,7 +80,7 @@ Para ver el todos los métodos completos, revisar la documentación [Documentaci
 
 5. Permitir ingresar al usuario por consola nombres de personas, estos nombres deben mantener el siguiente formato:
 
-   - Si el nombre comienza por una vocal, el nombre debe comenzar el nombre con mayúscula
+   - Si el nombre comienza por una vocal, el nombre debe comenzar con mayúscula
    - Si el nombre comienza por una consonante, el nombre de estar todo en mayúscula
 
     Para mostrar cómo va la lista el usuario puede escribir la palabra “mostrar” y para salir debe escribir la palabra “salir”. Al final se debe imprimir en pantalla todos los nombres de la lista y el total de nombres agregados.
