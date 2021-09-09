@@ -1,4 +1,4 @@
-# Ejercicio 3 | Iteradores - Métodos - Bloques - Módulos
+# Ejercicio 3 | Iteradores - Métodos - Bloques
 
 > Preparar y entregar en los buzones: Range (Core) y 12 Básicos (Core)
 
@@ -118,4 +118,3 @@ prueba { puts "estoy desde el bloque 🧱" }
 ```
 
 Analizar el resultado de las impresiones y sacar una conclusión de cómo podría
-## Módulos
