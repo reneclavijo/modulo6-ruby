@@ -1,4 +1,4 @@
-require 'faker'
+require 'faker' # enlazar o llamar a la gema 
 
 module ModuloUsuarios
 
