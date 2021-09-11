@@ -17,19 +17,21 @@ module ModuloMenu
             puts "3. Salir 🛫"
         
             opcion = gets.chomp.to_i
-        
+            
             if opcion == 1
-                puts "Introduzca la cantidad de registros"
-                cantidad = gets.chomp.to_i
-        
-                arreglo_usuarios_correo_faker = generar_usuario_con_correo(cantidad)   # módulo usuarios
+                
+                con_cantidad_registros = obtener_cantidad_registros
+
+                arreglo_usuarios_correo_faker = generar_usuario_con_correo(con_cantidad_registros)   # módulo usuarios
                 imprimir_usuarios_con_correos(arreglo_usuarios_correo_faker)    # módulo impresiones
+
             elsif opcion == 2
-                puts "Introduzca la cantidad de registros"
-                cantidad = gets.chomp.to_i
+
+                cantidad = obtener_cantidad_registros
         
                 arreglo_usuario_con_gustos = generar_usuarios_con_gustos(cantidad)     # módulo usuarios
                 imprimir_usuarios_con_gustos(arreglo_usuario_con_gustos)        # módulo impresiones
+
             elsif opcion == 3
                 puts "Saliendo del generado de datos 👋"
             else
@@ -38,6 +40,11 @@ module ModuloMenu
             puts "Presione ENTER para continuar "
             gets
         end
+    end
+
+    def obtener_cantidad_registros
+        puts "Introduzca la cantidad de registros 🔧"
+        return gets.chomp.to_i
     end
 
 end
