@@ -42,6 +42,26 @@ print "Los numeros pares sumados son #{arr}, "
 
 
 
+# resolver impresión de todos los números separados por comas
+for i in 0..n-1
+    if i == n-1 # estoy en la última vuelta???
+        print numeros_totales[i]            # imprimir solo el número
+    else
+        print "#{numeros_totales[i]}, "     # resolviendo el problema de imprimir en la misma línea
+    end
+end
+puts        # resuelve el problema de mostrar el %
+
+# resolver impresión de solo pares con + y =
+for i in 0..n-1
+    if numeros_totales[i] % 2 == 0
+        print "#{numeros_totales[i]} + "
+    end
+    
+    if i == n-1
+        print " = #{suma}"
+    end
+end
 
 
 
