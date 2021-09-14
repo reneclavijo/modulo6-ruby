@@ -9,15 +9,15 @@ Crear una carpeta llamada *ejercicio5* para agregar los siguientes archivos:
 
 Una clase es una "plantilla" para crear objetos en ruby que quedan instanciados en la memoria RAM. Estos objetos tienen la particularidad de poder almacenar no solo datos (como arreglos o diccionarios) sino que también acciones que las llamaremos métodos.
 
-1. Definir una clase monstruo que permita instanciar monstruos con los siguientes atributos (datos):
+1. Definir una clase `Monstruo` que permita instanciar monstruos con los siguientes atributos (datos):
 
     - nombre
     - vida
     - ataque
 
-2. Definir un método que permita *atacar* a los monstruos a otros monstruos.
+2. Definir un método que permita *atacar* a otros monstruos.
 
-3. "Sobre escribir" el método to_s en la clase `Monstruo` para permitir que imprimir en consola toda la información del monstruo.
+3. "Sobre escribir" el método to_s en la clase `Monstruo` para permitir imprimir en consola toda la información del monstruo.
 
 ## Método initialize
 
