@@ -47,6 +47,18 @@ Al finalizar la simulación se deberá mostrar el nombre del monstruo ganador.
 1. Definir un menú que permita al usuario volver a generar otra simulación.
 2. Permitir al usuario "adivinar" cuál de los monstruos ganará. (permitir que escoja un ganador justo antes de comenzar la batalla)
 
-## Definir clases por comportamientos
+## Definir clases por comportamientos y self en clases
+
+Otra forma de definir las clases es pensando en comportamientos, como cuando contratamos una persona para un puesto en específico.
+
+Según los siguientes comportamientos definir las clases que hagan falta para completar el ejercicio
+
+- Es necesario generar monstruos sin utilizar el archivo main.rb
+- Las simulaciones deberían estar por fuera del main.rb para tener separada la lógica
+- Cuando se termina la simulación, es necesario almacenarlo en un archivo de texto para llevar un registro.
+
+Al menos 1 de las clases definidas deberán utilizar `self` en sus métodos para poder llamarlos **sin** la necesidad de instanciar un objeto.
 
 ## Herencia
+
+Las clases pueden tener una relación de herencia, para "compartir" métodos y atributos públicos desde "padres" a los "hijos"

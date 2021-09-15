@@ -5,7 +5,8 @@ class Monstruo
     attr_accessor :nombre
     attr_accessor :vida
     attr_accessor :ataque
-
+    
+    # grupo2
     def initialize(nombre = Faker::Games::StreetFighter.character, vida = rand(100..150), ataque = rand(10..15))
         @nombre = nombre
         @vida   = vida
