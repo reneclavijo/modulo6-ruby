@@ -14,7 +14,14 @@ class Monstruo
     end
 
     def atacar(monstruo_enemigo)
-        monstruo_enemigo.vida -= @ataque
+        if rand(1..100) < 70
+            monstruo_enemigo.vida -= @ataque
+            puts "#{@nombre} ataca a #{monstruo_enemigo.nombre} con #{@ataque}"
+            puts "#{monstruo_enemigo.nombre} quedó con: #{monstruo_enemigo.vida} HP"
+            puts
+        else
+            puts "¡#{@nombre} FALLÓ!"
+        end
     end
 
     def to_s
