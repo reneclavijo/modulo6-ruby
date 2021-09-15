@@ -47,6 +47,6 @@ Al finalizar la simulación se deberá mostrar el nombre del monstruo ganador.
 1. Definir un menú que permita al usuario volver a generar otra simulación.
 2. Permitir al usuario "adivinar" cuál de los monstruos ganará. (permitir que escoja un ganador justo antes de comenzar la batalla)
 
-## Relacionar clases entre sí
-
 ## Definir clases por comportamientos
+
+## Herencia
