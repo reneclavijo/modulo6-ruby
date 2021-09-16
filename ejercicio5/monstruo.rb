@@ -2,9 +2,9 @@ require 'faker'
 
 class Monstruo
 
-    attr_accessor :nombre
-    attr_accessor :vida
-    attr_accessor :ataque
+    attr_reader :nombre     # leer en el atributo
+    attr_accessor :vida     # leer y escribir en el atributo
+    attr_accessor :ataque   # leer y escribir en el atributo
     
     # grupo2
     def initialize(nombre = Faker::Games::StreetFighter.character, vida = rand(100..150), ataque = rand(10..15))
